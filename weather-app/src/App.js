@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import BasicExample from './Router';
+import { Route } from 'react-router-dom'
+import DayPage from './DayPage'
+import WeekPage from './WeekPage'
 
 class App extends Component {
   render() {
